@@ -34,7 +34,7 @@ export async function POST(req) {
         },
       ],
       mode: 'payment',
-      success_url: `${process.env.NEXT_PUBLIC_BASE_URL}/success?success=true&session_id={CHECKOUT_SESSION_ID}&collName=${body.clientType === 'Individual' ? 'individualConsultation' : 'firmConsultation'}&email_id=${body.email}`,
+      success_url: `${process.env.NEXT_PUBLIC_BASE_URL}/success?success=true&session_id={CHECKOUT_SESSION_ID}&collName=${body.clientType === 'Individual' ? 'individualconsultation' : 'firmConsultation'}&email_id=${body.email}`,
       cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/ca-consultation?status=cancelled`,
       billing_address_collection: 'required',
       customer_creation: 'always',

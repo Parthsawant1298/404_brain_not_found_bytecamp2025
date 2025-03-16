@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   env: {
-    MONGODB_URI: "mongodb+srv://sawantparth15:ParthSawant1298@cluster0.upnon.mongodb.net/",
+    MONGODB_URI: "mongodb://localhost:27017/lawconnect",
     NEXTAUTH_URL: "http://localhost:3000",
     NEXTAUTH_SECRET: "ac2e48ef0d42c503a8bb22a85c1b8a5e107e24b72746ef2bfbf4fc4b11be1558",
     

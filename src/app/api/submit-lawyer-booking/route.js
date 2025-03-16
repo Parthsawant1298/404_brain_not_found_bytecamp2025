@@ -1,6 +1,6 @@
 // app/api/submit-lawyer-booking/route.js
 import connectDB from '@/lib/mongodb';
-import LawyerBooking from '@/models/lawyerbooking';
+import LawyerBooking from '@/models/lawyerConsultation';
 import { NextResponse } from 'next/server';
 
 // Validation helper functions

@@ -60,7 +60,7 @@ const CALoginPage = () => {
       sessionStorage.setItem('caProfile', JSON.stringify(data.data));
       
       // Redirect to dashboard
-      router.push('/caonboarding');
+      router.push('/cadashboard');
       router.refresh();
   
     } catch (err) {
